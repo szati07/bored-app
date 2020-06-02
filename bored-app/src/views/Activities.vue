@@ -114,7 +114,6 @@ export default {
       this.axios
         .get(`${api}/activity?participants=${participants}`)
         .then((response) => {
-          console.log(response);
           if(!response.data.error) {
             const {
               activity,
@@ -139,7 +138,6 @@ export default {
       this.axios
         .get(`${api}/activity?price=${price}`)
         .then((response) => {
-          console.log(response);
           if(!response.data.error) {
             const {
               activity,

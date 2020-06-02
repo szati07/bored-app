@@ -6,6 +6,6 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### To run the project
 ```
 npm run serve
